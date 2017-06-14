@@ -104,8 +104,8 @@ int main(int argc, char **argv)
 
 		fclose(htseq_file);
 
-		// Convert to kilobases / million reads
-		scaling_factor /= 1000;
+		// Convert to trqnscript per million reads
+		scaling_factor /= 1000000;
 
 		// Output
 		for (i = 0; i < HTSEQ_FILE_LENGTH; i++){
